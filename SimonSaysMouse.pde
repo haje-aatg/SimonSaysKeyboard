@@ -8,7 +8,7 @@ void setup() {
   for (int index = 0;index <simonArray.length; index++) {
     simonArray[index] = new ButtonOn((byte)floor(random(0,3.99999)));
   }
-  printArray(simonArray);
+  printArray(simonArray[0]);
   //buttonOn[0] = true;
 }
 
